@@ -1,0 +1,84 @@
+.home{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(/Users/prakashp/Downloads/MyReactProject/ReactLearnings/src/assets/1736591033685.jpg); */
+}
+
+header {
+    background-color: #007BFF;
+    /* color: #fff; */
+    padding: 20px 10px;
+    text-align: center;
+    animation: fadeInDown 2s;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    /* background: #fff; */
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s;
+    background-blend-mode: multiply;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section h3, li{
+    margin-bottom: 10px;
+    /* color: white; */
+}
+
+section p {
+    line-height: 1.5;
+    color: #81cacc;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

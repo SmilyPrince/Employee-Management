@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 1rem;
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0px 10px;
+    background-color: #eae2e2;
+} */
+.container-login{
+    height: 350px;
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+}
+.forget label {
+    margin-left: 8px;
+}
+
+  

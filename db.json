@@ -1,0 +1,88 @@
+{
+  "Employee_Data": [
+    {
+      "id": "ed9a",
+      "employee_firstName": "Sathish",
+      "employee_lastName": "S",
+      "employee_department": "IT",
+      "employee_username": "smilysathishkumar",
+      "employee_password": "1234567890",
+      "employee_confirmPassword": "1234567890",
+      "employee_email": "smilysathishkumar@gmail.com",
+      "employee_contact": "+91 8220769301"
+    },
+    {
+      "employee_firstName": "Logeshwari",
+      "employee_lastName": "S",
+      "employee_department": "Accounts",
+      "employee_username": "loki_princess",
+      "employee_password": "0987654321",
+      "employee_confirmPassword": "0987654321",
+      "employee_email": "lokiprincess@gmail.com",
+      "employee_contact": "9876543210",
+      "id": "ad2b"
+    },
+    {
+      "id": "fbf6",
+      "employee_firstName": "Neelakandan",
+      "employee_lastName": "V",
+      "employee_department": "IT",
+      "employee_username": "nk_solo_nk",
+      "employee_password": "1234567890",
+      "employee_confirmPassword": "1234567890",
+      "employee_email": "neela9084@gmail.com",
+      "employee_contact": "9655603669"
+    },
+    {
+      "employee_firstName": "Srikanth",
+      "employee_lastName": "E",
+      "employee_department": "Software Testing",
+      "employee_username": "broken_porikki",
+      "employee_password": "0987654321",
+      "employee_confirmPassword": "0987654321",
+      "employee_email": "brokenporiki@gmail.com",
+      "employee_contact": "+91 9876543210",
+      "id": "c031"
+    },
+    {
+      "id": "9e52",
+      "employee_firstName": "Hariharan",
+      "employee_lastName": "J",
+      "employee_department": "IT",
+      "employee_username": "hari_romantic",
+      "employee_password": "12345",
+      "employee_confirmPassword": "12345",
+      "employee_email": "harij@gmail.com",
+      "employee_contact": "67890"
+    },
+    {
+      "id": "2b56",
+      "employee_firstName": "Yuvarajesh",
+      "employee_lastName": "V",
+      "employee_department": "IT",
+      "employee_username": "yuva",
+      "employee_password": "0987",
+      "employee_confirmPassword": "0987",
+      "employee_email": "yuva@gmail.com",
+      "employee_contact": "7890"
+    },
+    {
+      "employee_firstName": "Kabish",
+      "employee_lastName": "N",
+      "employee_department": "Marketing",
+      "employee_username": "drugBoy",
+      "employee_password": "5678",
+      "employee_confirmPassword": "5678",
+      "employee_email": "kabish@gmail.com",
+      "employee_contact": "9876543209",
+      "id": "134c"
+    }
+  ],
+  "Admin_Data": [
+    {
+      "username": "abc",
+      "password": "123",
+      "id": "de18"
+    }
+  ]
+}
