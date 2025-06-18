@@ -1,5 +1,4 @@
-import React, {  useEffect } from 'react'
-import {useContext} from 'react'
+import React, {  useEffect, useContext } from 'react'
 import Header from './Main/Header'
 import { Link } from 'react-router-dom'
 import CallApi from './CallApi'
@@ -19,7 +18,7 @@ const ViewEmployee = () => {
   useEffect(()=> {
   // const url = `http://localhost:3000/Employee_Data`
   fetchData(url)
-  },[data])
+  },[])
 
   // const url = "http://localhost:3000/Employee_Data"
   // const {data: temp} = callApi(url)
@@ -31,9 +30,9 @@ const ViewEmployee = () => {
     <h1 className='btn-outline-warning'>Employee Details</h1>
       <Count/>
     </center>
-    <table class="table table-stripped text-center table-hover" id="api">
+    <table className="table table-stripped text-center table-hover" id="api">
       <thead>
-        <tr class='table-warning'>
+        <tr className='table-warning'>
         <th>Emp_ID</th>
         <th>Emp_First_Name</th>
         <th>Emp_Last_Name</th>

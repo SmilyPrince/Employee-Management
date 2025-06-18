@@ -6,7 +6,9 @@ import CallApi from '../CallApi'
 const Parent = (Wrapped) => {
     
     // const {url} = useContext(ApiContext)
-    const url = 'http://localhost:3000/Employee_Data'
+  // const url = 'http://localhost:3000/Employee_Data'
+  // converted to mockapi url
+const url = 'https://685261e00594059b23cd416f.mockapi.io/Employee_Data'
     const {data, fetchData} = CallApi()
 
     const [employeeCount, setEmployeeCount] = useState(0)

@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import axios from 'axios'
 
 const CallApi = () => {
@@ -12,7 +12,8 @@ const CallApi = () => {
                 setData(response.data)
                 return response.data;
             }else if (id && body != null &&  method == "put"){
-                url = url + id
+                // url = url + id
+                url = `${url}/${id}` // changed to support mockapi
                 const response = await axios.put(url,body)
                 setData(response.data)
             }else if (body != null && method == "post"){

@@ -13,7 +13,9 @@ import PageNotFound from './Components/Main/PageNotFound'
 
   
 const App = () => {
-  const url = "http://localhost:3000/Employee_Data"
+  // const url = "http://localhost:3000/Employee_Data"
+  // converted to mockapi url
+  const url = "https://685261e00594059b23cd416f.mockapi.io/Employee_Data"
   return (
     <>
     <ApiContext.Provider value={{url}}>

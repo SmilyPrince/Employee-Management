@@ -53,7 +53,7 @@ const [state, dispatch] = useReducer(reducer, initialState)
 const {firstName,lastName,department,username,password,confirmPassword,email,contact} = state
 
 const getData = async()=>{
-  const response = await axios.get(`${url}${id}`)
+  const response = await axios.get(`${url}/${id}`)
   // fetchData(url, 'get', null, id)
 
   // Whenever we want to update the state, we will use dispatch
