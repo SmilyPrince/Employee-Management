@@ -14,7 +14,9 @@ const Login = () => {
     const submit = async (e) => {     
         e.preventDefault()
         try {
-            const response = await axios.get('http://localhost:3000/Admin_Data')
+            // const response = await axios.get('http://localhost:3000/Admin_Data')
+            // converted to mockapi url
+            const response = await axios.get('https://685261e00594059b23cd416f.mockapi.io/Admin_Data')
             console.log(response.data[0])
             if (response.data[0].username == username.current.value && response.data[0].password == password.current.value) {
                 sessionStorage.setItem('username', username.current.value)  

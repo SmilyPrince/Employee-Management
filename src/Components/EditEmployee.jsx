@@ -12,7 +12,9 @@ import Footer from './Main/Footer'
 
 const EditEmployee = () => {
   const {data, fetchData} = CallApi()
-  const url = "http://localhost:3000/Employee_Data/"
+  // const url = "http://localhost:3000/Employee_Data/"
+  // converted to mockapi url
+const url = "https://685261e00594059b23cd416f.mockapi.io/Employee_Data/"
   const navigate = useNavigate()
 const {id} = useParams()
 
