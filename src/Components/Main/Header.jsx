@@ -18,7 +18,7 @@ const Header = () => {
         <nav style={{ height: '50px', width: '100%' }} className="navbar navbar-expand-lg bg-body-primary">
       <div className="container-fluid">
         <Link to={"/"}>
-              <img style={{ height: '60px', width: '150px', alignItems: "center", mixBlendMode: 'multiply' }} src="src/assets/NavLogo.png" alt="logo" />
+              <img style={{ height: '60px', width: '150px', alignItems: "center", mixBlendMode: 'multiply' }} src="src/assets/NavLogo.png" alt="Portal logo" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
